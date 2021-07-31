@@ -1,0 +1,243 @@
+.messageDetails {
+  font-size: 12px;
+}
+.messageDetails .topMessage {
+  cursor: pointer;
+  font-size: 12px;
+  color: gray;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #eee;
+  padding-left: 5px;
+}
+.messageDetails .contentMessage {
+  padding: 20px;
+}
+.messageDetails .contentMessage .billNumber {
+  padding-bottom: 10px;
+}
+.messageDetails .contentMessage .billNumber span {
+  font-size: 17px;
+  font-weight: bold;
+}
+.messageDetails .contentMessage .DetailContent .DetailContentVal {
+  width: 79%;
+}
+.messageDetails .contentMessage .DetailContent .DetailContentExamine {
+  text-align: center;
+  width: 20%;
+}
+.messageDetails .contentMessage .DetailContent .DetailContentExamine .titileWidth {
+  font-size: 15px;
+  font-weight: bold;
+}
+.messageDetails .contentMessage .DetailContent .DetailContentExamine .titleName {
+  color: #ccc;
+}
+.messageDetails .contentMessage .DetailContent .DetailContentExamine .detailStatic {
+  width: 40%;
+}
+.messageDetails .contentMessage .DetailContent .DetailContentExamine .detailMoney {
+  width: 30%;
+}
+.collapseTemplate {
+  width: 100%;
+  padding-left: 5px;
+  color: gray;
+}
+.selectValueHide {
+  margin-right: 25px;
+  text-align: right;
+  width: 70%;
+  font-size: 12px;
+}
+.itemDistance {
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.itemDistance .btnAddpProduct {
+  width: 97%;
+  padding: 10px;
+}
+.tableBox {
+  width: 100%;
+}
+.tableBox .classify {
+  width: 20%;
+  height: 100%;
+}
+.tableBox .classify .title {
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.tableBox .contentSearch {
+  width: 78%;
+  height: 100%;
+  padding-left: 1%;
+  border-left: 1px solid #eee;
+}
+.tableBox .contentSearch .topSearch {
+  margin-bottom: 10px;
+}
+.auditTitle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  opacity: 0.3;
+}
+.auditTitle span {
+  color: red;
+  transform: rotate(-20deg);
+}
+.parcel {
+  position: relative;
+}
+.searchBox {
+  padding: 20px;
+}
+.searchBox .addShortcut {
+  width: 12%;
+  height: 85px;
+  vertical-align: bottom;
+  position: relative;
+}
+.searchBox .addShortcut .addShortcutBtn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.searchBox .supplierBoxParcel {
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+.searchBox .supplierBoxParcel .supplierDescription {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.searchBox .supplierBoxParcel .supplierBox {
+  width: 25%;
+  float: left;
+}
+.searchBox .supplierBoxParcel .supplierBox span {
+  font-size: 12px;
+}
+.searchBox .auditSiteBox {
+  text-align: right;
+  width: 8%;
+  height: 85px;
+  position: relative;
+}
+.searchBox .auditSiteBox .auditSite {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.searchExtend {
+  padding: 0.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: 0;
+}
+.searchExtend .itemTitle {
+  text-align: right;
+  width: 35%;
+  height: 100%;
+  float: left;
+  vertical-align: middle;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.searchExtend .itemText {
+  width: 64%;
+  height: 100%;
+  float: left;
+}
+.extendShow {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 0;
+}
+.extendHide {
+  height: 0;
+  display: none;
+}
+.tableContent {
+  padding: 0.5%;
+}
+.pagingBox {
+  opacity: 0.87;
+  text-align: right;
+  height: 5%;
+  width: 100%;
+  padding-top: 0.7%;
+  border-top: 5px solid #f2f2f2;
+}
+.pagingBox .leftBox {
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: middle;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+.pagingBox .leftBox span {
+  vertical-align: top;
+  margin-right: 10px;
+}
+.pagingBox .leftBox span span {
+  color: #226a86;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.pagingBox .rightBox {
+  margin-right: 20px;
+  display: inline-block;
+}
+.addUserType {
+  float: right;
+  margin-right: 2%;
+}
+.btn_type {
+  color: blue;
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 2px;
+  border-radius: 2px;
+}
+.editAdd {
+  width: 90%;
+  margin: 0 auto;
+}
+.editAdd .item {
+  margin-bottom: 10px;
+}
+.editAdd .item .itemCntent .titleOverall {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+.editAdd .item .itemCntent .titleOverall span {
+  font-size: 13px;
+}
+.editAdd .item .itemCntent .titleinput {
+  width: 55%;
+  display: inline-block;
+}
+.tableStatic i {
+  font-size: 20px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: yellowgreen;
+}
